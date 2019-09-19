@@ -2,26 +2,34 @@ body {
   font-family: sans-serif;
 }
 
-#app {
+#home {
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .hello {
+  color: #fde625;
+  font-size: 50px;
 }
 
 .name {
+  color: #23e8ef;
+  font-size: 75px;
 }
 
 .primary_skill {
-}
-
-.secondary_skill {
+  color: #ff4246;
+  font-size: 44px;
 }
 
 .hobby {
+  color: #241e4e;
+  font-size: 23px;
 }
