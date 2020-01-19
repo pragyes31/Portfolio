@@ -11,6 +11,7 @@ body {
   align-items: center;
   font-weight: bold;
   text-transform: uppercase;
+  background-color: #eeeeee;
 }
 
 .hello {
@@ -39,7 +40,7 @@ body {
 
 .primary_skill {
   color: #7193ff;
-  font-size: 26.5px;
+  font-size: 27px;
   background-image: linear-gradient(
     319.6deg,
     rgba(243, 0, 79, 1) 20.5%,
@@ -62,4 +63,8 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* background-image: linear-gradient( 90.6deg,  rgba(59,158,255,1) -1.2%, rgba(246,135,255,1) 91.6% ); */
+background-image: linear-gradient(
+  90.6deg,
+  rgba(59, 158, 255, 1) -1.2%,
+  rgba(246, 135, 255, 1) 91.6%
+);
