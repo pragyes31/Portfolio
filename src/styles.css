@@ -4,11 +4,16 @@
 
 body {
   font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
 }
 
 #home {
-  height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,8 +72,26 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-background-image: linear-gradient(
+#about-me {
+  background-color: #222831;
+}
+
+#work {
+  background-color: #00adb5;
+}
+
+#contact-info {
+  background-color: #393e46;
+}
+
+footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #999;
+}
+
+/* background-image: linear-gradient(
   90.6deg,
   rgba(59, 158, 255, 1) -1.2%,
   rgba(246, 135, 255, 1) 91.6%
-);
+); */
