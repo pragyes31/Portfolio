@@ -87,7 +87,19 @@ body {
 footer {
   width: 100vw;
   height: 50px;
-  background-color: #999;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-profile {
+  color: #00a1e0;
+  font-weight: 600;
+}
+
+.heart-icon {
+  height: 45%;
 }
 
 /* background-image: linear-gradient(
